@@ -30,7 +30,7 @@ a{text-decoration: none;
     cursor: pointer;
 }
 .btn:hover{
-    background-color:rgb(240, 51, 17) ;
+    background-color:rgb(255, 38, 0) ;
     transition: background 0.5s;
 }
 
