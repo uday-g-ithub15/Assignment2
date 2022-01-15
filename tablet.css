@@ -7,6 +7,19 @@
         /* margin: 55px 75px 15px 90px; */
         padding: 5px 15px;
     }
+    .front-news{
+        display: flex;
+        flex-direction: column;
+         align-items: center; 
+         width: 100%;
+        justify-content: center; 
+        /* margin: 30px 75px 15px 90px; */
+        padding: 5px 15px;
+    }
+    .front-news .front-news-img{
+        margin-top: 10px;
+        width: 34%;
+    }
         .company-list{
             display: grid;
             grid-template-columns: repeat(3,1fr);

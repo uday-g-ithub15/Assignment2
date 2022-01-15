@@ -11,12 +11,14 @@
         display: flex;
         flex-direction: column;
          align-items: center; 
-        justify-content: space-between; 
+         width: 100%;
+        justify-content: center; 
         /* margin: 30px 75px 15px 90px; */
         padding: 5px 15px;
     }
     .front-news .front-news-img{
         margin-top: 10px;
+        width: 50%;
     }
 
     .company-list{
