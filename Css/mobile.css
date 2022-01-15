@@ -1,0 +1,52 @@
+@media screen and (max-width:688px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 55px 75px 15px 90px; */
+        padding: 5px 15px;
+    }
+    .front-news{
+        display: flex;
+        flex-direction: column;
+         align-items: center; 
+        justify-content: space-between; 
+        /* margin: 30px 75px 15px 90px; */
+        padding: 5px 15px;
+    }
+    .front-news .front-news-img{
+        margin-top: 10px;
+    }
+
+    .company-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 5px 15px; */
+    }
+
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+     }
+  
+     .other-site{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .other-site-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

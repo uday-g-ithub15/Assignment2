@@ -1,0 +1,27 @@
+@media  screen and (max-width:992px ) and (min-width:688px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 55px 75px 15px 90px; */
+        padding: 5px 15px;
+    }
+        .company-list{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 10px;
+        }
+        .company-list li{
+            /* border: solid; */
+            width: 70%;
+        }
+
+        .collections{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 10px;
+            justify-content: center;
+         }
+    }
