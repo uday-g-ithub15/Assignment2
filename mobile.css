@@ -1,4 +1,5 @@
 @media screen and (max-width:688px){
+      /****** Navbar ******/
     nav{
         display: flex;
         flex-direction: column;
@@ -7,6 +8,7 @@
         /* margin: 55px 75px 15px 90px; */
         padding: 5px 15px;
     }
+      /****** FFront News***** */
     .front-news{
         display: flex;
         flex-direction: column;
@@ -20,22 +22,14 @@
         margin-top: 10px;
         width: 50%;
     }
-
-    .company-list{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* padding: 5px 15px; */
-    }
-
+    /****** Top Collection ******/
     .collections{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 20px;
         grid-column-gap: 10px;
      }
-  
+  /* Other Site */
      .other-site{
         width: 100%;
         display: flex;

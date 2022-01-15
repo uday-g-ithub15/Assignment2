@@ -1,4 +1,5 @@
 @media  screen and (max-width:992px ) and (min-width:688px) {
+   /****** Navbar ******/
     nav{
         display: flex;
         flex-direction: column;
@@ -7,6 +8,7 @@
         /* margin: 55px 75px 15px 90px; */
         padding: 5px 15px;
     }
+    /****** FFront News***** */
     .front-news{
         display: flex;
         flex-direction: column;
@@ -20,16 +22,8 @@
         margin-top: 10px;
         width: 34%;
     }
-        .company-list{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-gap: 10px;
-        }
-        .company-list li{
-            /* border: solid; */
-            width: 70%;
-        }
-
+  
+/****** Top Collection ******/
         .collections{
             display: grid;
             grid-template-columns: repeat(2,1fr);
